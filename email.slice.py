@@ -1,5 +1,7 @@
 email = input('enter your email here: ')
 
+#just testing the email for validity, not checking for all the rules of email validation
+
 if email.count('@') != 1:
     
     print('invalid email')
