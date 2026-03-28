@@ -24,8 +24,16 @@ while True:
             print(f'domain: {domain}')
     
     print('do you want to enter another email? (yes/no) (y/n)')
-    answer = input().lower()
+    answer = input().strip().lower()
     
-    if answer != 'yes' and answer != 'y':
+    while answer not in ['yes', 'no', 'y', 'n']:
+        print('invalid answer, please enter yes or no')
+        answer = input().strip().lower()
+    
+    if answer == 'yes' or answer == 'y':
+        print('ok, let\'s try again!')
+    elif answer == 'no' or answer == 'n':
+        print('goodbye!')
         break
+    
         
