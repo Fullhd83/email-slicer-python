@@ -6,17 +6,19 @@ This is my first Python project.
 - Validates email format
 - Extracts username and domain
 - Handles edge cases (multiple @, spaces, missing parts)
+- Allows repeated input with user-controlled loop
 
 ## Example
 
-Input:
+**Input:**
 john@gmail.com
 
-Output:
+**Output:**
 username: john  
 domain: gmail.com
 
-## What I learned
+## What I Learned
 - String manipulation
 - Input validation
-- Basic Python logic (if/elif/else)
+- Control flow (if/elif/else)
+- Loops and user interaction
